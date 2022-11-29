@@ -194,6 +194,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
         <!-- Sidebar Menu -->
         <nav class="mt-2">
+
+
           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
@@ -213,13 +215,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="empleados.php" class="nav-link active" id="new_empleado">
+
+
+                  <a href="empleados.php" class="nav-link " id="new_empleado">
+
+
+
                     <i class="far fa-circle nav-icon"></i>
                     <p>Empleados</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="matricula_alumnos.php" class="nav-link" id="">
+                  <a href="matricula_alumnos.php" class="nav-link " id="">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Matricula de alumno</p>
                   </a>
@@ -230,7 +237,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     </a>
                 </li>
                 <li class="nav-item">
-                  <a href="asistencia_empleado.php" class="nav-link" id="">
+                  <a href="asistencia_empleado.php" class="nav-link active" id="">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Asistencia Empleado</p>
                     </a>
@@ -261,6 +268,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </ul>
         </nav>
         <!-- /.sidebar-menu -->
+
+
       </div>
       <!-- /.sidebar -->
     </aside>
@@ -391,6 +400,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <script>
     list_asistencia_empleados();
   </script>
+
 </body>
 
 </html>
